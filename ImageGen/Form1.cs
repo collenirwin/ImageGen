@@ -83,7 +83,6 @@ namespace ImageGen
                     backBrush = new SolidBrush(backColor);
                 }
 
-
                 // draw background
                 graphics.FillRectangle(
                     backBrush, // color
@@ -120,6 +119,12 @@ namespace ImageGen
                     yPos = 0;
                 }
             }
+
+            // we just made a random image half the size of what we want
+            // it looks like this: [
+            // now we're going to make another image that's the same but flipped
+            // it will look like this: ]
+
             // flip tempBmp horizontally, put it into bmpFlipped
             var tempBmpFlipped = new Bitmap(tempBmp);
             tempBmpFlipped.RotateFlip(RotateFlipType.RotateNoneFlipX);
@@ -127,6 +132,8 @@ namespace ImageGen
             // create bmp with picture's dimensions
             bmp = new Bitmap(picture.Width, picture.Height);
 
+            // now we're going to add the two images together
+            // so we get the full image: []
             using (var graphics = Graphics.FromImage(bmp))
             {
                 // draw tempBmp on the left
