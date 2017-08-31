@@ -1,0 +1,9 @@
+E:\School2017.2\Prog\ImageGen\ImageGen\bin\Debug\ImageGen.exe.config
+E:\School2017.2\Prog\ImageGen\ImageGen\bin\Debug\ImageGen.exe
+E:\School2017.2\Prog\ImageGen\ImageGen\bin\Debug\ImageGen.pdb
+E:\School2017.2\Prog\ImageGen\ImageGen\obj\Debug\ImageGen.csprojResolveAssemblyReference.cache
+E:\School2017.2\Prog\ImageGen\ImageGen\obj\Debug\ImageGen.Form1.resources
+E:\School2017.2\Prog\ImageGen\ImageGen\obj\Debug\ImageGen.Properties.Resources.resources
+E:\School2017.2\Prog\ImageGen\ImageGen\obj\Debug\ImageGen.csproj.GenerateResource.Cache
+E:\School2017.2\Prog\ImageGen\ImageGen\obj\Debug\ImageGen.exe
+E:\School2017.2\Prog\ImageGen\ImageGen\obj\Debug\ImageGen.pdb
